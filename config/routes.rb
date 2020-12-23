@@ -19,6 +19,8 @@ Rails.application.routes.draw do
 
     get "/hale" => "hale#index"
 
+    get "/whiskeys" => "whiskeys#index"
+
     get "/baxter" => "baxter#index"
   end
 end
