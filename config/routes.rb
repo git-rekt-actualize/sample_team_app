@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 >>>>>>> 7d0c8ecd67b0e75fb58b15fc69b276e7c4f5f8b5
 =======
 
+    get "/messages" => "messages#index"
     get "/message" => "examplemessages#index"
 
     get "/widgets" => "widgets#index"
