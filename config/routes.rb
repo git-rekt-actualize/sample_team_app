@@ -23,6 +23,11 @@ Rails.application.routes.draw do
 
 >>>>>>> e88b295d8f18d3c032bfd5a29cea0c1943ab891c
     get "/hale" => "hale#index"
+<<<<<<< HEAD
 >>>>>>> 0bac68e94ed81092c09296170f1a534af1bb1976
+=======
+
+    get "/baxter" => "baxter#index"
+>>>>>>> 35437b05a0c073c528536a54a627fbc32b8b8c5d
   end
 end
