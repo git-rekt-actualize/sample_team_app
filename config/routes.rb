@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
     get "/messages" => "messages#index"
 
+    get "/widgets" => "widgets#index"
     get "/hale" => "hale#index"
   end
 end
