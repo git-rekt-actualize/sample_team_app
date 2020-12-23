@@ -7,5 +7,7 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 
     get "/message" => "examplemessages#index"
+
+    get "/hale" => "hale#index"
   end
 end
