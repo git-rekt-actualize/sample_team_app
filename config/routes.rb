@@ -12,5 +12,7 @@ Rails.application.routes.draw do
     get "/widgets" => "widgets#index"
 
     get "/hale" => "hale#index"
+
+    get "/baxter" => "baxter#index"
   end
 end
